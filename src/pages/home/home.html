@@ -1,0 +1,22 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>
+      Ionic Blank
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding class="body">
+  <h1>Rugby Championship</h1>
+  <img src="../../assets//imgs/Rugby-Ball-icon.png">
+ <div>
+    <ion-input class="i" type="text" placeholder="Home Team" #hteam></ion-input>
+    <div class="vs">
+        VS
+      </div>
+      <ion-input class="i" type="text" placeholder="Away Team" #ateam></ion-input>
+ </div>
+  <div  padding>
+    <button class="b" ion-button full (click)="showPrompt(hteam.value, ateam.value)" color="light" round>Start</button>
+  </div>
+</ion-content>

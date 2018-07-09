@@ -1,0 +1,58 @@
+page-score-board {
+    .body{
+        background-image: url('../../assets/imgs/8527bb41ee57098f09c6d522255b46e1.jpg')
+    }
+    .col{
+        margin-top: 10%;
+        border: 2px ;
+        height: 250px;
+        text-align: center;
+    }
+
+   h1{
+       font-size:  1.6em;
+       font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+   }
+
+   h2{
+    font-size:  1.2em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+    }
+
+    .buttons{
+        margin: 5%;
+    }
+
+    .b{
+        width: 60%;
+        background-color: #086e50;
+    }
+    .b2{
+        width: 91%;
+        background-color: #16d69d
+    }
+
+    .b3{
+        width: 30%;
+        background-color: #98e9d1;
+    }
+
+    .score{
+        height: 150px;
+        width: 80%;
+        color: grey;
+        font: 4em;
+    }
+
+    .sco{
+        border: 10px;
+        margin-top: 5%;
+        font-size: 7em;
+    }
+
+    .score:active {
+      background-color: #caf7a1;
+      height: 150px;
+        width: 80%;
+      }
+}
